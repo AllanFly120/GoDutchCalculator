@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447BFE0A1D7CDB5300B8B8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE091D7CDB5300B8B8DA /* AppDelegate.swift */; };
+		447BFE0C1D7CDB5300B8B8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE0B1D7CDB5300B8B8DA /* ViewController.swift */; };
+		447BFE0F1D7CDB5300B8B8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447BFE0D1D7CDB5300B8B8DA /* Main.storyboard */; };
+		447BFE121D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE101D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodeld */; };
+		447BFE141D7CDB5300B8B8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447BFE131D7CDB5300B8B8DA /* Assets.xcassets */; };
+		447BFE171D7CDB5300B8B8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447BFE151D7CDB5300B8B8DA /* LaunchScreen.storyboard */; };
+		447BFE201D7CDC2500B8B8DA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE1E1D7CDC2500B8B8DA /* TableViewCell.swift */; };
+		447BFE211D7CDC2500B8B8DA /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447BFE1F1D7CDC2500B8B8DA /* TableViewCell.xib */; };
+		447BFE231D7CE0D400B8B8DA /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE221D7CE0D400B8B8DA /* Purchase.swift */; };
+		447BFE251D7CE39700B8B8DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE241D7CE39700B8B8DA /* Constants.swift */; };
+		447BFE291D7CEAA100B8B8DA /* PurchaseInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE281D7CEAA100B8B8DA /* PurchaseInfoCell.swift */; };
+		447BFE2B1D7CEC4200B8B8DA /* PurchaseDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447BFE2A1D7CEC4200B8B8DA /* PurchaseDetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		447BFE061D7CDB5300B8B8DA /* ApartmentCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApartmentCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		447BFE091D7CDB5300B8B8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		447BFE0B1D7CDB5300B8B8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		447BFE0E1D7CDB5300B8B8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		447BFE111D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ApartmentCalculator.xcdatamodel; sourceTree = "<group>"; };
+		447BFE131D7CDB5300B8B8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		447BFE161D7CDB5300B8B8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		447BFE181D7CDB5300B8B8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447BFE1E1D7CDC2500B8B8DA /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		447BFE1F1D7CDC2500B8B8DA /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		447BFE221D7CE0D400B8B8DA /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		447BFE241D7CE39700B8B8DA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		447BFE281D7CEAA100B8B8DA /* PurchaseInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseInfoCell.swift; sourceTree = "<group>"; };
+		447BFE2A1D7CEC4200B8B8DA /* PurchaseDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseDetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447BFE031D7CDB5300B8B8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447BFDFD1D7CDB5300B8B8DA = {
+			isa = PBXGroup;
+			children = (
+				447BFE081D7CDB5300B8B8DA /* ApartmentCalculator */,
+				447BFE071D7CDB5300B8B8DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447BFE071D7CDB5300B8B8DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447BFE061D7CDB5300B8B8DA /* ApartmentCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447BFE081D7CDB5300B8B8DA /* ApartmentCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				447BFE091D7CDB5300B8B8DA /* AppDelegate.swift */,
+				447BFE0B1D7CDB5300B8B8DA /* ViewController.swift */,
+				447BFE2A1D7CEC4200B8B8DA /* PurchaseDetailController.swift */,
+				447BFE0D1D7CDB5300B8B8DA /* Main.storyboard */,
+				447BFE131D7CDB5300B8B8DA /* Assets.xcassets */,
+				447BFE151D7CDB5300B8B8DA /* LaunchScreen.storyboard */,
+				447BFE181D7CDB5300B8B8DA /* Info.plist */,
+				447BFE101D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodeld */,
+				447BFE1E1D7CDC2500B8B8DA /* TableViewCell.swift */,
+				447BFE1F1D7CDC2500B8B8DA /* TableViewCell.xib */,
+				447BFE221D7CE0D400B8B8DA /* Purchase.swift */,
+				447BFE241D7CE39700B8B8DA /* Constants.swift */,
+				447BFE281D7CEAA100B8B8DA /* PurchaseInfoCell.swift */,
+			);
+			path = ApartmentCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447BFE051D7CDB5300B8B8DA /* ApartmentCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447BFE1B1D7CDB5300B8B8DA /* Build configuration list for PBXNativeTarget "ApartmentCalculator" */;
+			buildPhases = (
+				447BFE021D7CDB5300B8B8DA /* Sources */,
+				447BFE031D7CDB5300B8B8DA /* Frameworks */,
+				447BFE041D7CDB5300B8B8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApartmentCalculator;
+			productName = ApartmentCalculator;
+			productReference = 447BFE061D7CDB5300B8B8DA /* ApartmentCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447BFDFE1D7CDB5300B8B8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AllanZheng;
+				TargetAttributes = {
+					447BFE051D7CDB5300B8B8DA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KGT9BV7YD4;
+					};
+				};
+			};
+			buildConfigurationList = 447BFE011D7CDB5300B8B8DA /* Build configuration list for PBXProject "ApartmentCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 447BFDFD1D7CDB5300B8B8DA;
+			productRefGroup = 447BFE071D7CDB5300B8B8DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447BFE051D7CDB5300B8B8DA /* ApartmentCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447BFE041D7CDB5300B8B8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447BFE171D7CDB5300B8B8DA /* LaunchScreen.storyboard in Resources */,
+				447BFE211D7CDC2500B8B8DA /* TableViewCell.xib in Resources */,
+				447BFE141D7CDB5300B8B8DA /* Assets.xcassets in Resources */,
+				447BFE0F1D7CDB5300B8B8DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447BFE021D7CDB5300B8B8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447BFE0C1D7CDB5300B8B8DA /* ViewController.swift in Sources */,
+				447BFE231D7CE0D400B8B8DA /* Purchase.swift in Sources */,
+				447BFE201D7CDC2500B8B8DA /* TableViewCell.swift in Sources */,
+				447BFE2B1D7CEC4200B8B8DA /* PurchaseDetailController.swift in Sources */,
+				447BFE291D7CEAA100B8B8DA /* PurchaseInfoCell.swift in Sources */,
+				447BFE121D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodeld in Sources */,
+				447BFE0A1D7CDB5300B8B8DA /* AppDelegate.swift in Sources */,
+				447BFE251D7CE39700B8B8DA /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		447BFE0D1D7CDB5300B8B8DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447BFE0E1D7CDB5300B8B8DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		447BFE151D7CDB5300B8B8DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447BFE161D7CDB5300B8B8DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		447BFE191D7CDB5300B8B8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		447BFE1A1D7CDB5300B8B8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447BFE1C1D7CDB5300B8B8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ApartmentCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AllanZheng.ApartmentCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		447BFE1D1D7CDB5300B8B8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ApartmentCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AllanZheng.ApartmentCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447BFE011D7CDB5300B8B8DA /* Build configuration list for PBXProject "ApartmentCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447BFE191D7CDB5300B8B8DA /* Debug */,
+				447BFE1A1D7CDB5300B8B8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447BFE1B1D7CDB5300B8B8DA /* Build configuration list for PBXNativeTarget "ApartmentCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447BFE1C1D7CDB5300B8B8DA /* Debug */,
+				447BFE1D1D7CDB5300B8B8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		447BFE101D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				447BFE111D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodel */,
+			);
+			currentVersion = 447BFE111D7CDB5300B8B8DA /* ApartmentCalculator.xcdatamodel */;
+			path = ApartmentCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 447BFDFE1D7CDB5300B8B8DA /* Project object */;
+}
